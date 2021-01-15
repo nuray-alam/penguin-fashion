@@ -80,6 +80,24 @@ nav {
 .third-section-card {
   margin: 20px 0px;
 }
+.last-section {
+  background-color: blueviolet;
+  padding-top: 30px;
+  color: lightgray;
+}
+.last-section img {
+  width: 40px;
+  margin: auto 5px;
+}
+.last-section h3 {
+  color: white;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: lightgray;
+}
 @media (max-width: 993px) {
   .navbar-brand {
     width: 300px;
