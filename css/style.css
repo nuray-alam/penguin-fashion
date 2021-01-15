@@ -99,9 +99,11 @@ footer {
   background-color: lightgray;
 }
 @media (max-width: 993px) {
-  .navbar-brand {
-    width: 300px;
+
+  .navbar-brand img {
+    width: 200px;
     margin-right: 0px;
+    padding: 0px;
   }
   .navbar-toggler {
   }
