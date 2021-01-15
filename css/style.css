@@ -101,5 +101,6 @@ footer {
 @media (max-width: 993px) {
   .navbar-brand {
     width: 200px;
+    margin:0px;
   }
 }
