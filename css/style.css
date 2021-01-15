@@ -91,12 +91,12 @@ nav {
 }
 .last-section h3 {
   color: white;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   font-weight: bold;
 }
-footer{
-    text-align: center;
-    background-color: lightgray;
+footer {
+  text-align: center;
+  background-color: lightgray;
 }
 @media (max-width: 993px) {
   .navbar-brand {
