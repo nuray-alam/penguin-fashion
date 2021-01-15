@@ -100,8 +100,8 @@ footer {
 }
 @media (max-width: 993px) {
   .navbar-brand {
-    width: 200px;
-    margin: 20px;
+    width: 300px;
+    margin-right: 0px;
   }
   .navbar-toggler {
   }
