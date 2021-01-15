@@ -1,0 +1,45 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: rgb(255, 251, 240);
+}
+nav img {
+  width: 60%;
+}
+nav {
+  font-weight: 600;
+  font-size: large;
+}
+.model img {
+  width: 100%;
+}
+
+.model h1 {
+  font-size: 60px;
+  color: rgb(250, 190, 76);
+  font-weight: bolder;
+}
+.blue-highlighter {
+  color: rgb(54, 57, 88);
+}
+.model-left-div {
+  width: 80%;
+}
+.buy-now-btn {
+  background-color: rgb(164, 188, 70);
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+}
+.buy-now-btn img {
+  width: 20%;
+}
+.card {
+  border: 0px;
+}
+.card-title {
+  color: rgb(54, 57, 88);
+  font-weight: bolder;
+
+}

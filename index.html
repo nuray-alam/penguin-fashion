@@ -5,44 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peguin Fashion</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="container">
-      <!-- starting of nav bar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img src="images/icon.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
+    <section class="header">
+      <header class="container">
+        <!-- starting of nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light py-4">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="images/icon.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link" href="#">Contact us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End of nav bar -->
+
+        <!-- Start of model section -->
+        <section class="model container d-flex justify-content-between">
+          <div class="row">
+            <div class="col-sm-7">
+              <h1>BE THE PENGUINS</h1>
+              <h1><span class="blue-highlighter"> OF WINTER</span></h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                temporibus, consequatur quia corrupti reiciendis eos.
+              </p>
+              <button
+                class="btn buy-now-btn d-flex justify-content-around align-items-center"
               >
+                <img src="images/kart.png" alt="" />BUY NOW
+              </button>
+            </div>
+            <div class="col-sm-5">
+              <img src="images/model.png" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <!-- End of model section -->
+      </header>
+    </section>
+    <main>
+      <!-- start of women section -->
+
+      <section class="container women my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img src="images/w1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Yellow Coat Jacket</h4>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img src="images/w2t.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Ladies Jacket</h4>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+              <img src="images/w3t.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Woman Leather Jacket</h4>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
-      <!-- End of nav bar -->
-    </header>
+      </section>
+      <!-- start of women section -->
+    </main>
 
     <!-- javascript of bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
