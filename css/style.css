@@ -101,6 +101,11 @@ footer {
 @media (max-width: 993px) {
   .navbar-brand {
     width: 200px;
-    margin:0px;
+    margin: 20px;
+  }
+  .navbar-toggler {
+  }
+  .navbar-toggler-icon {
+    width: 15px;
   }
 }
